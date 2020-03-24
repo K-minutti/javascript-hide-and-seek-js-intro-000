@@ -13,7 +13,7 @@ function increaseRankBy(n) {
 
   for (let i = 0; i < upRank.length; i++){
     upRank[i].innerHTML = ((parseInt(upRank[i].innerHTML)))
-    upRank[i] ++ 2
+    (upRank[i] ++ n)
     }
 
 }
