@@ -20,6 +20,4 @@ function increaseRankBy(n){
 function deepestChild(){
   var deep = document.getElementById('grand-node').querySelectorAll('div')
   return deep[deep.length-1]
-
 }
- ProTip! Use n and p to navigate between commits in a pull request.
