@@ -1,14 +1,14 @@
 
-function getFirstSelector(selector){
+function getFirstSelector(selector) {
   return document.querySelector(selector)
 
 }
 
-function nestedTarget(){
+function nestedTarget() {
   return document.getElementById('nested').querySelector('div.target')
 
 }
-function increaseRankBy(n){
+function increaseRankBy(n) {
   const upRank = document.getElementById('app').querySelectorAll('ul.ranked-list')
 
   for (let i = 0; i < upRank.length; i++){
@@ -17,7 +17,7 @@ function increaseRankBy(n){
 
 }
 
-function deepestChild(){
+function deepestChild() {
   var deep = document.getElementById('grand-node').querySelectorAll('div')
   return deep[deep.length-1]
 }
